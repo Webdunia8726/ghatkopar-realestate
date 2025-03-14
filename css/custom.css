@@ -3768,3 +3768,74 @@ footer.footer {
     transform: translateY(-3px);
     box-shadow: 0px 10px 20px rgba(255, 140, 0, 0.6);
 }
+
+ /* Custom Styling */
+ .modal-header {
+    background: #ff5733;
+    color: white;
+}
+.modal-footer {
+    justify-content: center;
+}
+.whatsapp-btn {
+    background: #25d366;
+    color: white;
+}
+.call-btn {
+    background: #007bff;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+}
+
+.fixed-bottom-buttons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+}
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+    font-size: 20px;
+}
+.btn-call {
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+}
+.btn i {
+    margin-right: 8px;
+}
+.video-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+video {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+ /* Custom Styling */
+ .gallery-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+.gallery-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.carousel-item img {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-height: 500px;
+    object-fit: cover;
+}
